@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tv_fruitName"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fruit Name" />
+
+    <ImageView
+        android:id="@+id/img_fruitImage"
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mango"/>
+
+    <TextView
+        android:id="@+id/tv_fruitDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:text="Lorem Ipsum is simply dummy
+        text of the printing and typesetting
+        industry. Lorem Ipsum has been the
+        industry's standard dummy text ever
+        since the 1500s, when an unknown printer
+        took a galley of type and scrambled it to
+        make a type specimen book. "
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_fruitPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_gravity="center"
+        android:text="P8.00"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/deep_red"/>
+
+</LinearLayout>
